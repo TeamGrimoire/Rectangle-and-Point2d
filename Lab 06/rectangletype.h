@@ -2,6 +2,7 @@
 #include "point2d.h"
 
 class rectangleType {
+
 private:
     point2D p0;
     point2D p1;
@@ -26,7 +27,7 @@ public:
         return (getY1() - getY0());
     }
     int getPerimeter() {
-        return 2 * (getWidth() + getLength());
+        return 2*(getWidth() + getLength());
     }
     int getArea() {
         return (getWidth() * getLength());

@@ -16,12 +16,9 @@ public:
     void setX(int x);
     void setY(int y);
 
-    point2D()
-    {
+    point2D(){
     }
-    point2D(int ax, int ay)
-    {
-        x = ax;
-        y = ay;
+
+    point2D(int ax, int ay){
     }
 };
