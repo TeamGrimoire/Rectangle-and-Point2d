@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="point2d.cpp" />
+    <ClCompile Include="rectangletype.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="point2d.h" />

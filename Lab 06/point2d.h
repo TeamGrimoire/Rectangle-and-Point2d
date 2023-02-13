@@ -12,10 +12,10 @@ public:
     int getY() {
         return y;
     }
-    Point2D()
+    point2D()
     {
     }
-    Point2D(int ax, int ay)
+    point2D(int ax, int ay)
     {
         x = ax;
         y = ay;
