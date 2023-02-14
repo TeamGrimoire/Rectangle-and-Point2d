@@ -10,12 +10,12 @@ rectangleType::rectangleType(int ax0, int ay0, int ax1, int ay1) {
 
 }
 
+
 int rectangleType::getX0() {
 
 	return p0.getX();
 
 }
-
 
 int rectangleType::getY0() {
 
@@ -40,11 +40,13 @@ int rectangleType::getLength() {
 }
 
 int rectangleType::getPerimeter() {
-	2 * (getLength() + getWidth());
+	return 2 * (getLength() + getWidth());
+
 }
 
 int rectangleType::getArea() {
 	(getLength() * getWidth());
+
 }
 
 

@@ -14,5 +14,5 @@ public:
 
     point2D();
 
-        point2D(int ax, int ay);
+    point2D(int ax, int ay);
 };

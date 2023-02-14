@@ -1,5 +1,6 @@
 #pragma once
 #include "point2d.h"
+#include "point2d.cpp"
 
 class rectangleType {
 
