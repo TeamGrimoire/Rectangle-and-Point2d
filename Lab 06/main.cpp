@@ -1,16 +1,19 @@
 #include <iostream>
 #include "point2d.h"
-#include "point2d.cpp"
 #include "rectangletype.h"
-#include "rectangletype.cpp"
 using namespace std;
+#define abs;
 
 int main() {
 
 	int ax0;
+	int* ptr = &ax0;
 	int ay0;
+	int* ptr = &ay0;
 	int ax1;
+	int* ptr = &ax1;
 	int ay1;
+	int* ptr = &ay1;
 
 	cout << "Rectangle App!" << endl;
 	cout << "--------------" << endl;
@@ -24,7 +27,17 @@ int main() {
 	cout << "Please enter an input for y1: ";
 	cin >> ay1;
 
-	rectangleType l(ax0, ay0, ax1, ay1);
+	rectangleType abs(ax0, ay0, ax1, ay1);
+	cout << "Width: ";
+	cout << abs.getWidth() << endl;
+	cout << "Length: ";
+	cout << abs.getLength() << endl;
+	cout << "Perimeter: ";
+	cout << abs.getPerimeter() << endl;
+	cout << "Area: ";
+	cout << abs.getArea() << endl;
+
+	exit(0);
 
 
 
