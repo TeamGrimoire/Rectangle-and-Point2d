@@ -24,6 +24,7 @@ int main() {
 	cout << "Please enter an input for y1: ";
 	cin >> ay1;
 
+	rectangleType l(ax0, ay0, ax1, ay1);
 
 
 
