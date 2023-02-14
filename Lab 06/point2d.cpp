@@ -1,4 +1,5 @@
 #include "point2d.h"
+#include "rectangletype.cpp"
 
 void point2D::setX(int ax) {
     x = ax;

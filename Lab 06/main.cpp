@@ -2,7 +2,8 @@
 #include "point2d.h"
 #include "rectangletype.h"
 using namespace std;
-#define abs;
+
+
 
 int main() {
 
