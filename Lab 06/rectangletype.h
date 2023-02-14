@@ -16,7 +16,5 @@ public:
     int getLength();
     int getPerimeter();
     int getArea();
-    rectangleType(int ax0, int ay0, int ax1, int ay1) {
-
-    }
+    rectangleType(int ax0, int ay0, int ax1, int ay1);
 };

@@ -1,7 +1,7 @@
 #include "point2d.h"
 #include "rectangletype.h"
 #include <cmath>
-#define abs
+
 
 rectangleType::rectangleType(int ax0, int ay0, int ax1, int ay1) {
 
@@ -30,4 +30,22 @@ int rectangleType::getX1() {
 int rectangleType::getY1() {
 	return p1.getY();
 }
+
+int rectangleType::getWidth() {
+	return (getY1() - getY0());
+}
+
+int rectangleType::getLength() {
+	return (getX1() - getX0());
+}
+
+int rectangleType::getPerimeter() {
+	2 * (getLength() + getWidth());
+}
+
+int rectangleType::getArea() {
+	(getLength() * getWidth());
+}
+
+
 

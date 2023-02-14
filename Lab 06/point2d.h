@@ -6,19 +6,13 @@ private:
     int y = 0;
 
 public:
-    int getX() {
-        return x;
-    }
-    int getY() {
-        return y;
-    }
+    int getX();
+    int getY();
 
     void setX(int x);
     void setY(int y);
 
-    point2D(){
-    }
+    point2D();
 
-    point2D(int ax, int ay){
-    }
+        point2D(int ax, int ay);
 };

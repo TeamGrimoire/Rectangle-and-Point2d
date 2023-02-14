@@ -1,6 +1,9 @@
 #include <iostream>
 #include "point2d.h"
 #include "rectangletype.h"
+#include "point2d.cpp"
+#include "rectangletype.cpp"
+
 using namespace std;
 
 
@@ -8,13 +11,13 @@ using namespace std;
 int main() {
 
 	int ax0;
-	int* ptr = &ax0;
+
 	int ay0;
-	int* ptr = &ay0;
+
 	int ax1;
-	int* ptr = &ax1;
+
 	int ay1;
-	int* ptr = &ay1;
+
 
 	cout << "Rectangle App!" << endl;
 	cout << "--------------" << endl;
